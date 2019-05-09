@@ -154,7 +154,7 @@
 		function allowClick(anchor) {
 			clickPause.push(setTimeout(function() {
 				if (anchor.active) { anchor.allowClickThrough = true; }
-			}, 70));
+			}, 100));
 		}
 
 		// Set event listeners
